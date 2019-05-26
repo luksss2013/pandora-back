@@ -22,7 +22,7 @@ public class Localizacao {
 	
 	private String cep;
 	
-	private Integer telefone;
+	private String telefone;
 	
 	public Long getId() {
 		return id;
@@ -64,11 +64,13 @@ public class Localizacao {
 		this.cep = cep;
 	}
 
-	public Integer getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
 
-	public void setTelefone(Integer telefone) {
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
+
+	
 }
